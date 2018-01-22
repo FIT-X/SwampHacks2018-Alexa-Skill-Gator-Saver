@@ -1,0 +1,19 @@
+{
+  "deploy_settings": {
+    "default": {
+      "skill_id": "amzn1.ask.skill.2c4f27f1-a108-4255-b3d0-2bb7e88abca3",
+      "was_cloned": false,
+      "merge": {
+        "skillManifest": {
+          "apis": {
+            "custom": {
+              "endpoint": {
+                "uri": "swamphacks-2018-gator-saver"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

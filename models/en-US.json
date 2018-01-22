@@ -1,0 +1,146 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "gator saver",
+      "intents": [
+        {
+          "name": "atms",
+          "samples": [
+            "show me the closest atms",
+            "show me atms"
+          ]
+        },
+        {
+          "name": "setbal",
+          "slots": [
+            {
+              "name": "Amount",
+              "type": "AMAZON.NUMBER"
+            }
+          ],
+          "samples": [
+            "set balance to {Amount} dollars",
+            "set balance to {Amount}",
+            "deposit {Amount} dollars",
+            "deposit {Amount}"
+            
+          ]
+        },
+        {
+          "name": "checkbal",
+          "samples": [
+            "check my balance",
+            "check balance",
+            "balance",
+            "how much money do I have",
+            "what's my balance"
+          ]
+        },
+        {
+          "name": "paybill",
+          "slots": [
+            {
+              "name": "BillType",
+              "type": "UTILITIES"
+            }
+          ],
+          "samples": [
+            "pay {BillType} bill",
+            "pay {BillType}"
+          ]
+        },
+        {
+          "name": "buystuff",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "PRODUCTS"
+            }
+          ],
+          "samples": [
+            "purchase a {Item}",
+            "purchase an {Item}",
+            "buy a {Item}",
+            "buy an {Item}"
+          ]
+        },
+        {
+          "name": "convertcrypto",
+          "samples": [
+            "convert balance to crypto",
+            "convert to crypto",
+            "convert"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        },
+        {
+          "name": "AMAZON.CancelIntent"
+        }
+      ],
+      "types": [
+        {
+          "name": "UTILITIES",
+          "values": [
+            {
+              "id": null,
+              "name": {
+                "value": "power",
+                "synonyms": [
+                  "electric"
+                ]
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "water",
+                "synonyms": []
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "rent",
+                "synonyms": []
+              }
+            }
+          ]
+        },
+        {
+          "name": "PRODUCTS",
+          "values": [
+            {
+              "id": null,
+              "name": {
+                "value": "iphone 7",
+                "synonyms": []
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "iphone 6s",
+                "synonyms": []
+              }
+            },
+            {
+              "id": null,
+              "name": {
+                "value": "iphone 8",
+                "synonyms": []
+              }
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

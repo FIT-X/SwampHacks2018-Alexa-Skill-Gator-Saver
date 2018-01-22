@@ -1,0 +1,11 @@
+{
+  "name": "swamphacks-2018-gator-saver",
+  "version": "1.0.0",
+  "description": "SwampHacks Gator Saver skill",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "alexa-sdk": "^1.0.0"
+  }
+}
